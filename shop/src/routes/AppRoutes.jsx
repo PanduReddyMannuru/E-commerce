@@ -19,7 +19,7 @@ import ProductDetail from "../features/products/pages/ProductDetail";
 import LoginPage from "../features/auth/pages/LoginPage";
 import RegisterPage from "../features/auth/pages/RegisterPage";
 import CartPage from "../features/cart/pages/CartPage";
-// import OrdersPage from "../features/orders/pages/OrdersPage";
+import OrdersPage from "../features/orders/Pages/OrdersPage";
 import ProfilePage from "../features/userProfile/pages/ProfilePage";
 
 export default function AppRoutes() {
@@ -31,7 +31,7 @@ export default function AppRoutes() {
         <Route path="/login" element={<LoginPage />} />
         <Route path="/register" element={<RegisterPage />} />
         <Route path="/cart" element={<CartPage />} />
-        {/* <Route path="/orders" element={<OrdersPage />} /> */}
+        <Route path="/orders" element={<OrdersPage />} />
         <Route path="/profile" element={<ProfilePage />} />
       </Routes>
     </BrowserRouter>
