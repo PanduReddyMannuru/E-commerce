@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { HomePage } from "../features/products/pages/HomePage";
-import LoginPage from "../features/auth/pages/LoginPage";
+import  HomePage from "../features/products/pages/HomePage";
+import { LoginPage } from "../features/auth/pages/LoginPage";
 
 export default function AppRoutes() {
   return (
