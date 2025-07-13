@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import logoImage from '../../../assets/logo.jpg';
 
 const initialCartItems = [
   {
@@ -6,14 +7,14 @@ const initialCartItems = [
     name: "Blue Sneakers",
     price: 2499,
     quantity: 2,
-    image: "/assets/logo.png",
+    image:logoImage,
   },
   {
     id: 2,
     name: "Red T-shirt",
     price: 799,
     quantity: 1,
-    image: "/assets/logo.png",
+    image:logoImage,
   },
 ];
 
