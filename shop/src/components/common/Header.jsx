@@ -1,9 +1,14 @@
 import React from 'react';
+import logoImage from '../../assets/logo.jpg';
+
 
 const Header = () => {
     return (
         <header style={styles.header}>
-            <div style={styles.logo}>ShopLogo</div>
+            <div style={styles.logoContainer}>
+                <img src={logoImage} alt="ShopEase Logo" style={styles.logoImage} />
+                <span style={styles.logoText}>ShopEase</span>
+            </div>
             <nav style={styles.nav}>
                 <a href="/" style={styles.link}>Home</a>
                 <a href="/cart" style={styles.link}>Cart</a>
@@ -23,7 +28,17 @@ const styles = {
         background: '#fff',
         borderBottom: '1px solid #eee',
     },
-    logo: {
+    logoContainer: {
+        display: 'flex',
+        alignItems: 'center',
+        gap: '12px',
+    },
+    logoImage: {
+        height: '40px',
+        width: 'auto',
+        borderRadius: '4px',
+    },
+    logoText: {
         fontWeight: 'bold',
         fontSize: '1.5rem',
         color: '#333',
