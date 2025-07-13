@@ -11,15 +11,16 @@ export default function HomePage() {
       <p>Discover the best deals on our products:</p> 
       <p>Find your favorite items at unbeatable prices:</p>
       <p>Shop now and enjoy exclusive offers!</p>
-      <p>Browse through our collection and find what you love!</p>
-      <p>Don't miss out on our special discounts!</p>
-      <p>Shop with us for the best online shopping experience!</p>
 
             <div className={styles.grid}>
               {products.map((product) => (
                 <ProductCard key={product.id} product={product} />
               ))}
             </div>
+      <p>Browse through our collection and find what you love!</p>
+      <p>Don't miss out on our special discounts!</p>
+      <p>Shop with us for the best online shopping experience!</p>
+      <p>Happy shopping!</p>
     </div>
   );
 }
